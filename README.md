@@ -1,1 +1,1 @@
-# landing-page
+A project to build a product landing page from [Free Code Camp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)
