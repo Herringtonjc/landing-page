@@ -17,7 +17,7 @@ body {
 }
 
 .content {
-    max-width: 75%;
+    max-width: 65%;
     margin: auto;
     background-color: transparent;
     margin-top: 5rem;
@@ -42,6 +42,14 @@ h1 {
 h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.35rem;
 }
 
 #form {
@@ -76,6 +84,9 @@ li {
 a {
     text-decoration: none;
     color: slategray;
+}
+
+#nav-link {
     margin-left: 1.5rem;
 }
 
@@ -108,4 +119,41 @@ a:visited {
 
 p {
     font-size: 1.2rem;
+}
+
+#supply {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 5rem;
+    margin-top: 8rem;
+}
+
+.supply-grid {
+    border: 1px solid black;
+}
+
+.grid-header {
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    padding: .5rem;
+}
+
+.price-btn {
+    background-color: #fccf03;
+    padding: .5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    width: 7.5rem;
+}
+
+.price-btn:hover {
+    background-color: #a18302;
+    cursor: pointer;
+}
+
+.supply-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
