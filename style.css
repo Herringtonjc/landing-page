@@ -1,8 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 100px;
+}
+
+.content {
+    max-width: 75%;
+    margin: auto;
+    background-color: transparent;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -17,6 +39,11 @@ h1 {
     font-size: 3.5rem;
 }
 
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
 #form {
     display: flex;
     justify-content: center;
@@ -26,6 +53,7 @@ h1 {
     margin-left: 1rem;
     background-color: #fccf03;
     padding: 10px;
+    border-radius: 10px;
 }
 
 #submit:hover {
@@ -36,13 +64,13 @@ h1 {
 #email {
     border: 1px solid slategray;
     background-color: transparent;
+    border-radius: 10px;
 }
 
 li {
     list-style-type: none;
     display: inline;
     margin-left: .5rem;
-    float: right;
 }
 
 a {
@@ -64,10 +92,20 @@ a:visited {
     text-align: center;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    right: 0;
-    float: right;
-    width: 100%;
+.wrapper {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.description {
+    margin-left: 4rem;
+}
+
+.icon {
+    max-width: 33px;
+    color: #a18302;
+}
+
+p {
+    font-size: 1.2rem;
 }
